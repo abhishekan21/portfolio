@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <img src="Cool-Anime.jpg" alt="Profile Picture" class="hero-image">
+            <div class="hero-text">
+                <h1>Hello, I'm Abhishek Anand</h1>
+                <p>Web Developer | Designer </p>
+                <div><a href="Resume Abhishek Anand .pdf" class="btn" target="_blank">download CV</a></div>
+            </div>
+        </div>
+        
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="Cool-Anime.jpg" alt="Profile Image" class="about-img">
+            <p>I'm a passionate web developer with experience in creating user-friendly websites and applications.
+                I enjoy writing clean, scalable code and solving complex problems. In addition to my technical skills, I
+                am also experienced in UI/UX design, which helps me create seamless and engaging user experiences.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>HTML</h3>
+                <div class="skill-bar html"></div>
+            </div>
+            <div class="skill">
+                <h3>CSS</h3>
+                <div class="skill-bar css"></div>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="skill-bar js"></div>
+            </div>
+            <div class="skill">
+                <h3>React</h3>
+                <div class="skill-bar react"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="Ecommerce-Website.webp" alt="Project 1">
+                <h3>Ecommerce</h3>
+                <p>An ecommerce website is a site that facilitates the buying and selling of products and services.</p>
+            </div>
+            <div class="project-card">
+                <img src="portfolio-website-template.png" alt="Project 2">
+                <h3>Portfolio</h3>
+                <p>A portfolio website is a unique way to showcase your work and let others know about yourself.</p>
+            </div>
+            <div class="project-card">
+                <img src="weather.png" alt="Project 3">
+                <h3>Wheather</h3>
+                <p>Weather app is a web application which will tell the users about the weather details of any particular city .</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <form action="#" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Abhishek. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
